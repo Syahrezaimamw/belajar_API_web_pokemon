@@ -1,0 +1,53 @@
+.cr{
+    cursor: grab;
+}
+.loadingg{
+    background-color: rgb(194, 192, 192);
+}
+.pokeball{
+    cursor: pointer;
+    z-index: 99;
+    transform: rotate(-30deg);
+    transition: 1s;
+}
+.kotak{
+    transition: 1s;
+    /* width: ; */
+}
+.kotakDom{
+    transform: translate(-390px);
+    /* width: 400px; */
+}
+.pokeballDom{
+    /* transform: translateX(-130px); */
+    transform:  rotate(-390deg);
+}
+.lebar{
+    transition: 1s;
+    width: 0px;
+    background-color: rgb(244,196,4);
+border-radius: 4px;
+}
+.lebarDom{
+    width: 410px;
+}
+.isi{
+    transition: 1s;
+    transform-origin: bottom;
+    height: 0px;
+    color: transparent;
+    bottom: 48px;
+    background-color: rgb(58,93,168);
+    /* display: none; */
+}
+.isiDom{
+    transform-origin: bottom;
+    height: 200px;
+    bottom:-152px;
+    /* display: flex; */
+}
+.showdetail{
+}
+.showdetail:visited{
+    color:  rgb(0, 7, 23);
+}
